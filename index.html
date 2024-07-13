@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form{
+            display: grid;
+            grid-template-columns:50px 50px 50px 50px;
+            gap: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+<form name="content">
+<input class="kiran" type="text"name="display" style="color: rgb(255, 0, 0);">
+<input class="kiran" type="button" value="9" onclick="content.display.value+='9'">
+<input class="kiran" type="button" value="8" onclick="content.display.value+='8'">
+<input class="kiran" type="button" value="7" onclick="content.display.value+='7'">
+<input class="kiran" type="button" value="/" onclick="content.display.value+='/'">
+<input class="kiran" type="button" value="6" onclick="content.display.value+='6'">
+<input class="kiran" type="button" value="5" onclick="content.display.value+='5'">
+<input class="kiran" type="button" value="4" onclick="content.display.value+='4'">
+<input class="kiran" type="button" value="*" onclick="content.display.value+='*'">
+<input class="kiran" type="button" value="3" onclick="content.display.value+='3'">
+<input class="kiran" type="button" value="2" onclick="content.display.value+='2'">
+<input class="kiran" type="button" value="1" onclick="content.display.value+='1'">
+<input class="kiran" type="button" value="-" onclick="content.display.value+='-'">
+<input class="kiran" type="button" value="0" onclick="content.display.value+='0'">
+<input class="kiran" type="button" value="." onclick="content.display.value+='.'">
+<input class="kiran" type="button" value="+" onclick="content.display.value+='+'">
+<input class="kiran" type="button" value="=" onclick="content.display.value=eval(content.display.value)">
+
+</form>
+
+    </div>
+</body>
+</html>
